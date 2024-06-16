@@ -33,16 +33,19 @@ body {
 
 
 .jumbo-title {
-    background-image: url("../img/background-image.webp");
-    background-size: cover;
-    background-position: center;
+    position: relative;
     min-height: 100vh;
     color: #fff9f0;
     text-align: center;
-    padding-top: 100px; 
-    z-index: 0;
-    position: relative;
+    padding-top: 100px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(28, 24, 12)),
+                      url("../img/background-image.webp");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal;
 }
+
+
 
 .jumbo-text {
     margin-top: 25%;
@@ -101,20 +104,19 @@ body {
     margin-bottom: 5%;
 }
 
-.about-btn:hover {
+.about-btn {
+    margin-top: 5%;
+    font-family: "Cormorant SC", serif;
+    font-weight: 500;
+    font-size: 15pt;
     background-color: rgba(0,0,0,0);
-    font-family: "Cormorant", serif;
     text-decoration: underline;
-    font-size: 17pt;
     border: 0px;
     color: #fff9f0;
 }
 
-.about-btn {
-    margin-top: 5%;
+.about-btn:hover {
     background-color: #fff9f0;
-    font-family: "Cormorant", serif;
-    font-size: 17pt;
     border: 0px;
     color: #1c180c;
 }
