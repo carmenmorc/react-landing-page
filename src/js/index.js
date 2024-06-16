@@ -36,12 +36,17 @@ const Card4Text = {
 import Navbar from "./component/navbar.jsx";
 import Jumbo from "./component/jumbo.jsx";
 import Cards from "./component/cards.jsx";
+import About from "./component/cards.jsx";
 
 
 //render your react application
 ReactDOM.render(<div>
     <Navbar />
     <Jumbo />
+    <About />
+
+
+
     <div className="card-container">
     <Cards 
     title={Card1Text.title}
@@ -64,5 +69,6 @@ ReactDOM.render(<div>
     buttonLabel={Card4Text.buttonLabel}
     imageUrl={Card4Text.imageUrl}/>
     </div>
+    
 
   </div>,document.querySelector("#app"));
