@@ -41,6 +41,7 @@ import Cards from "./component/cards.jsx";
 ReactDOM.render(<div>
     <Navbar />
     <Jumbo />
+    <div className="card-container">
     <Cards 
     title={Card1Text.title}
     description={Card1Text.description}
@@ -61,5 +62,6 @@ ReactDOM.render(<div>
     description={Card4Text.description}
     buttonLabel={Card4Text.buttonLabel}
     imageUrl={Card4Text.imageUrl}/>
+    </div>
 
   </div>,document.querySelector("#app"));
