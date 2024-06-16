@@ -7,7 +7,7 @@ import React from "react";
 const Jumbo = () => {
 
     const JumboText = {
-        title : "God loves you, but not enough to save you",
+        title : "God loves you, but not enough to save you.",
         description : "Preacher's Daughter",
         buttonLabel : "Out Now",
         buttonUrl : "https://open.spotify.com/intl-es/album/3WmujGwOS0ANHkJRnMH6n8?si=pP8SJg_GTKiAZXQ2c9GNeA"

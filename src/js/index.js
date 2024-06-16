@@ -36,7 +36,7 @@ const Card4Text = {
 import Navbar from "./component/navbar.jsx";
 import Jumbo from "./component/jumbo.jsx";
 import Cards from "./component/cards.jsx";
-import About from "./component/cards.jsx";
+import About from "./component/about.jsx";
 
 
 //render your react application
