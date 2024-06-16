@@ -1,39 +1,74 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
 
 .card-container {
     display: flex;
 }
 
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
 .navbar-brand {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    height: 100%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
     margin: auto;
 }
 
 .navbar-brand img {
-    max-width: 200px; 
-    height: auto; 
+    max-width: 170px; 
+    height: auto;
 }
+
 
 .jumbo-title {
     background-image: url("../img/background-image.webp");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    color: white; /* Color del texto sobre la imagen de fondo */
+    color: #fff9f0;
     text-align: center;
     padding-top: 100px; 
+    z-index: 0;
+    position: relative;
+}
+
+.jumbo-text {
+    margin-top: 25%;
+}
+
+.jumbo-title h1{
+    font-family: "Cormorant", serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 17pt;
+    margin-bottom: 15px;
+}
+
+.jumbo-title h2{
+    font-size: 50pt;
+    font-family: "Cormorant SC", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.jumbo-btn {
+    background-color: rgba(0,0,0,0);
+    font-family: "Cormorant", serif;
+    text-decoration: underline;
+    font-size: 17pt;
+    border: 0px;
+    color: #fff9f0;
+}
+
+.jumbo-btn:hover {
+    background-color: #fff9f0;
+    font-family: "Cormorant", serif;
+    font-size: 17pt;
+    border: 0px;
+    color: #1c180c
 }

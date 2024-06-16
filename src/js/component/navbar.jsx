@@ -10,8 +10,8 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="navbar fixed-top">
-            <div className="container">
+        <nav className="navbar">
+            <div className="container fixed-top">
                 <a className="navbar-brand d-flex align-items-center" href="#">
                     <img src={NavbarContent.logo} alt="Ethel Cain Logo" className="navbar-logo" />
                 </a>
