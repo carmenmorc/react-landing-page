@@ -7,20 +7,20 @@ import React from "react";
 const Jumbo = () => {
 
     const JumboText = {
-        title : "Bienvenido a Travel Explorer",
-        description : "Tu puerta de entrada a las mejores experiencias de viaje alrededor del mundo.",
-        text : "Descubre nuevos destinos, aventuras y ofertas especiales con nosotros.",
-        buttonLabel : "Comienza tu aventura"
+        title : "Preacher's Daughter",
+        description : "Out Now",
+        buttonLabel : "Stream",
+        buttonUrl : "https://open.spotify.com/intl-es/album/3WmujGwOS0ANHkJRnMH6n8?si=pP8SJg_GTKiAZXQ2c9GNeA"
     };
     return (
-      <div className="jumbotron">
+      <div className="jumbotron jumbo-title">
         <h1 className="display-4">{JumboText.title}</h1>
         <p className="lead">{JumboText.description}</p>
-        <hr className="my-4" />
         <p>{JumboText.text}</p>
-        <a className="btn btn-primary btn-lg" href="#" role="button">
+        <a className="btn btn-primary btn-lg" href={JumboText.buttonUrl} role="button">
           {JumboText.buttonLabel}
         </a>
+
       </div>
     );
   };

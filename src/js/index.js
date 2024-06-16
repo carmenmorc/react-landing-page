@@ -5,6 +5,7 @@ import ReactDOM from "react-dom";
 // include your styles into the webpack bundle
 import "../styles/index.css";
 
+
 const Card1Text = {
     title : "Destinos Exóticos",
     description : "Explora los destinos más exóticos y únicos alrededor del mundo con nuestras ofertas exclusivas.",

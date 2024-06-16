@@ -14,3 +14,26 @@
 .card-container {
     display: flex;
 }
+
+.navbar-brand {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    margin: auto;
+}
+
+.navbar-brand img {
+    max-width: 200px; 
+    height: auto; 
+}
+
+.jumbo-title {
+    background-image: url("../img/background-image.webp");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white; /* Color del texto sobre la imagen de fondo */
+    text-align: center;
+    padding-top: 100px; 
+}
