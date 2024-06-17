@@ -1,8 +1,5 @@
 import React from "react";
 
-//include images into your bundle
-
-
 
 const Navbar = () => {
     const NavbarContent = {

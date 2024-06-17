@@ -12,6 +12,7 @@ import Navbar from "./component/navbar.jsx";
 import Jumbo from "./component/jumbo.jsx";
 import About from "./component/about.jsx";
 import Carousel from "./component/carousel.jsx";
+import Footer from "./component/footer.jsx";
 
 
 //render your react application
@@ -20,5 +21,6 @@ ReactDOM.render(<div>
     <Jumbo />
     <About />
     <Carousel />
+    <Footer />
 
   </div>,document.querySelector("#app"));
